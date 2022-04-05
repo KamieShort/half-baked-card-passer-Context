@@ -11,8 +11,8 @@ function App() {
   const [selectedCard, setSelectedCard] = useState();
   const [playerTwoHand, setPlayerTwoHand] = useState([]);
   const [playerThreeHand, setPlayerThreeHand] = useState([]);
-  // const [from, setFrom] = useState('deck');
-  // const [to, setTo] = useState(1);
+  const [from, setFrom] = useState('deck');
+  const [to, setTo] = useState(1);
 
   return (
     <div className="App">
