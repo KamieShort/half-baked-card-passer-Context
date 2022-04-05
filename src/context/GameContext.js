@@ -29,7 +29,7 @@ const GameProvider = ({ children }) => {
     setTo,
   };
 
-  return <GameContext.Provider value={{ gameObject }}>{children}</GameContext.Provider>;
+  return <GameContext.Provider value={gameObject}>{children}</GameContext.Provider>;
 };
 
 const useGameContext = () => {
